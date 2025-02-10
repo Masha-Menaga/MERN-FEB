@@ -1,0 +1,79 @@
+DAY 2
+
+HTML - structured content
+CSS - designing /styling
+JS - interactivity 
+
+why we use HTML?
+to create the structure of web page
+to organize content like text,images,links,and videos etc..
+HTML is the foundation of every Website on the intenet
+
+HTML - HyperText Markup Language
+ hypertext - Refer to text - like the connect diff webpages
+markup - tags -structure
+language - stuructured content display
+
+How HTML Works - Browser as a interpreter
+ 
+!DOCTYPE html - version5 - standard mode
+older version - quikr mode
+
+html5 unique features- <audio>,<video>,sematic tags
+
+tag - <body>
+<>  </>
+within tag - content
+tag+content = element
+ 
+<html>-root
+lang="en"-englisg
+fr-french
+es-Spanish
+hi-hindi
+tam-tamil
+
+<!-- Comment Line -->
+
+
+
+headings
+h1-h6
+h1-higher 
+h6-smaller
+
+Formatting Tags
+
+bold,italic,undeline,para.....
+
+element-2type
+block Element - takes full width if my browser, starts with new line
+inline element - Only takes as much as width 
+
+block Element - <div><p> <h1>-<h6> <table>.....
+inline Element - <span> <a> <img> <b> <i>....
+
+Links
+hyperlink - specify the URL (target=_blank,_self)
+BookMarks - use id - jump to specific section (#)
+
+
+DAY 3
+
+List
+ordered List <ol>  - default number(1) alpha(a,A) roman(i,I) - start (starts from)
+Un-ordered List <ul> - default disc square circle
+
+table
+child Element
+<tr>
+<td>
+<th>
+Grouping of Rows
+thead
+tbody
+tfoot
+
+Merger cell - rowspan,colspan
+
+Attributes of Table - border, width, cellspacing,cellpadding
