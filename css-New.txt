@@ -1,0 +1,68 @@
+css
+
+selector{
+property : value;
+
+}
+class Selector - .classname
+id selector - #idname
+element selector - basic selector - li
+: pseudo selector
+
+emmet abrevation
+
+
+Display - controls how an element shown the page 
+none, block (default),flex,grid
+
+none - display none
+flex - parent element
+align-item
+justify-content
+gap:
+flex-direct - default (column)
+
+p - para
+h1-h6
+
+li - ol
+ul - ul
+
+pre -pre formatted text
+
+<table>
+<th>
+<tr>
+<td>
+
+<b><u><i><strong><em>
+<mark>
+
+<script><link> <a href> <img><audion><video>
+
+hover{
+
+position - how to element placed on page
+static relative absolute  fixed sticky
+
+Transition
+smooth change
+ /* transition: font-size 3s linear; */
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+
+Animation - move rotation based on keyframes
+
+@keyframes - steps
+name of keyframe
+how long animation runs
+speed 
+how many times repeat
+animation-direction normal,reverse,alternate
+
+ animation-name: bounce;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: alternate;

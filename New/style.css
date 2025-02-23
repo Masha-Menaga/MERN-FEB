@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  color: yellow;
+}
+.container {
+  width: 200px;
+  height: auto;
+  background-color: aqua;
+  display: block;
+}
+.container-flex {
+  width: 600px;
+  height: auto;
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  width: 100%;
+  height: 30px;
+  background-color: darkgray;
+  align-items: center;
+
+  justify-content: center;
+
+  /* Position */
+  top: 0px;
+  position: fixed;
+}
+li:hover {
+  color: aqua;
+}
+.img-container {
+  position: relative;
+  width: 300px;
+  /* background-color: rgb(223, 18, 18); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-container img {
+  width: 200px;
+  height: auto;
+  opacity: 0.5;
+}
+.img-container p {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  color: aliceblue;
+  font-weight: bold;
+  z-index: 999;
+  opacity: 1;
+}
+.tran-container {
+  width: 200px;
+  height: 200px;
+  background-color: yellowgreen;
+}
+.tran-container:hover {
+  /* transition: font-size 3s linear; */
+  transition-property: width;
+  transition-duration: 3s;
+  transition-timing-function: ease;
+  width: 300px;
+  background-color: antiquewhite;
+  font-size: 30px;
+  font-weight: bold;
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 50%;
+  /* animation: masha 2s infinite alternate; */
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+    background-color: aquamarine;
+  }
+  50% {
+    transform: translateY(-50px);
+    background-color: chartreuse;
+  }
+
+  60% {
+    transform: translateX(0px);
+    background-color: rgb(0, 255, 213);
+  }
+  100% {
+    transform: translateX(100%);
+    background-color: rgb(255, 0, 247);
+  }
+}
+
+.opacity {
+  opacity: 0.2;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(45%, -50%);
+  z-index: -1;
+}
