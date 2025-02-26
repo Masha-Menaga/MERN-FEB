@@ -1,0 +1,48 @@
+HTML - Structured Content
+CSS - Styling designing
+JS - interactivity , functions
+
+what is JS?
+Java Script
+light weighted Scripting language & programming language
+
+JS not used by Sperate, without the HTML & CSS
+
+Excecute - Runtime Environment 
+HTML - Browser (Interpreter)
+JS - Browser with Js engine 
+
+Chrome / edge - v8 engine
+firefox - Spider Monkey
+safari - JScore(Nitro)
+ 
+Tools Required:
+A Browser with developer console
+Editor 
+
+console - browser -> rightClick -> inspect -> console
+
+Script 2 ways
+Internal <script>....</script>
+external <script src="script.js"/>
+
+Command Line -  JS engine Ignore 
+single Line Command - //
+Multi Line Command - /* ...... */
+
+JS printing Statement - console.log("...")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
