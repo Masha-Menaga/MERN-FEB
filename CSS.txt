@@ -1,0 +1,76 @@
+CSS
+pseudo Element : Hover
+
+Transition - allows smooth Changes
+transition-property : style-property
+transition-duration : how long
+transition-timing-function - ease,linear
+
+Animation - motion effects
+
+animation-name: name of the @keyframe
+animation-duration: how long
+animation-timing-function: ease, linear
+animation-iteration-count: count, infinite
+animation-direction: normal,reverse,alternate`
+
+
+@keyframes - Animation Steps:
+
+name of key frame
+how long animation runs
+speed
+
+when start
+how many times repeat
+
+
+Responsive
+adapts range from desktop to smartphones
+
+how to use responsive :
+@mediaquery
+layout flexible
+handle proper - grids & images 
+
+.container{
+width:800px;
+}
+
+.container{
+width:80%;
+}
+
+Syntax:
+@media(condition){
+css Rule
+}
+
+media Query feature
+width height - viewport
+aspect ratio - 
+orientation - portrait, landscape
+resolution -dpi,dpx
+
+Grid
+2 dimentional grid-layout controlled both row and column - complex web layout
+
+display-grid - Parent
+
+Grid-template-columns - width
+Grid-template-rows - height
+gap:
+row-gap
+column-gap
+
+justify-items -horizondally align
+align-items - vertically align
+
+justify-content,align-content - align entire grid 
+
+fr-unit (fractional unit) 
+
+
+
+
+

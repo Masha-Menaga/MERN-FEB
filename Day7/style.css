@@ -35,18 +35,20 @@ button:hover {
   animation-timing-function: ease;
   animation-iteration-count: 3;
   animation-direction: reverse;
+  
 }
 @keyframes bounce {
   0% {
     transform: translateY(0);
     background-color: chocolate;
   }
-  50% {
-    transform: translateY(-50px);
+
+  60% {
+    transform: translateX(50px);
     background-color: cornflowerblue;
   }
   100% {
-    transform: translateY(-25%);
+    transform: translateX(100%);
     background-color: darkkhaki;
   }
 }
