@@ -1,0 +1,115 @@
+JS - Java Script
+interactivity , functionality
+
+Scripting language, programming language
+
+developers - validation, event handle , API Interaction, dynamic web Application
+
+What is JS?
+lightweighted
+
+JS not used by Seprate without help of HTML&CSS 
+
+JS - run Time Environment - Browser JS engine (executed)
+
+Chrome / Edge - v8 engine
+firefox - spinkey monkey
+safari - Nitro
+
+Tools Required ?
+1. Editor - (VS code,Notepad,etc...)
+2. browser - (browser with developer console)  - browser- rightclick->inspect->console (f12)
+
+Script 2 ways
+internal - <script> ...... </script>
+external - <script src="filename"></script>
+
+command Line - ctrl+/ - code readable explain its purpose , jS engine ignore
+single Line - //
+Multiline Command - /* ....... */
+
+Concepts of JS
+variable - container / store data for use in a program
+
+3 keywords to describing variable in JS
+var- olderway global Scope
+let - Block-level Scope - changeable
+const - Block-level Scope - Read only - must be initialize during declaration - static
+
+syntax:
+statement end with semicolon(;)
+case sensitive - let , Let
+block of code enclosed with {...}
+
+Eg:
+let x=5;
+let -declaring a variable
+x - variable name
+5 - data (initialization)
+
+variable type - typeof(variablename)
+
+Data Types
+2 type
+1.primitive DT -
+2. non-Primitive DT
+
+Primitive DT
+1. Number - Numeric Values (eg:42)
+2. String - Text values (eg: "Hello")
+3. Boolean - Logical Values (eg: True/False)
+4. Undefined - varaible declared with no value (eg: let a)
+5. null - represent nothing
+
+Non-primitive DT -combination of Primitive DT
+1. Array - Sequence value-ordered list of value - [1,2,3,4]
+2. Object - key value pair -{name:"Masha"}
+3. Function - Resuable block codes
+
+Concadinate - printing statement and variable merge (+)
+
+versions in JS
+ECMA Script  - 
+ES1 - VAR (declaring the Variable )
+ES2 - ,,
+ES3 - ,,
+ES4 - ,,
+ES5 - ,,
+ES6 - latest Edition 6 - let, const (variable declaration)
+
+Operators - used to perform some mathematical calculations
+
+eg: 
+a=10;
+b=5;
+c=a+b;
+
+a+b - a, b - operands , + -operator
+
+Arithmetic Operator
++ - addition
+- - Subtraction
+/ - division - divisible by Quotient
+* - Multiplication
+% - Modular - Reminder
+** - power - x2 
+++ - Increment a++ = a+1
+-- - Decrement a-- = a-1
+
+increment - 
+pre increment   - ++a = a= 11
+post increment - a++ = a = 10 
+
+decrement 
+pre decrement 
+post decrement 
+
+
+ 
+
+
+
+
+
+
+
